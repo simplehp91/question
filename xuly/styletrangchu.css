@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+/*Khởi tạo mặc định*/
+ul,ol,li,h1,h2,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0px; padding:0px;}
+#content{width:1000px;margin:0px auto;}
+#content p { font: 16px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif; color:#333333; line-height:18px; 
+margin:15px auto; width:800px; }
+#content p a { color:#0088CC; text-decoration:none; }
+#content p a:hover { text-decoration:underline; }
+#vitravleNav {margin:0px 0px;list-style:none;letter-spacing:-0.5px;font-size:16px;text-shadow: 0 -1px 3px #202020;width:900px;
+height:34px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow: 0px 3px 3px #f3bfa6;
+-webkit-box-shadow: 0px 3px 3px #f3bfa6;box-shadow: 0 3px 4px #8b8b8b;}
+#vitravleNav li { display:block; float:left; border-right:1px solid #259357; border-left:1px solid #4fd38b; width:95px; height:34px; border-bottom:1px solid #238a51; border-top:1px solid #30c071;
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2fbb6e), color-stop(0.5, #269759), color-stop(0.51, #2db269), color-stop(1, #34cd79));
+background-image: -moz-linear-gradient(center bottom, #2fbb6e 0%, #269759 50%, #2db269 51%, #34cd79 100%);background-color:#279a5b;}
+#vitravleNav li:not(:last-child):hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #185f38), color-stop(0.5, #175a35), color-stop(0.51, #1b6b3f), color-stop(1, #1f7b48));
+    background-image: -moz-linear-gradient(center bottom, #185f38 0%, #175a35 50%, #1b6b3f 51%, #1f7b48 100% );
+    background-color:#175a35;
+    -moz-box-shadow: inset 0 0 5px 5px #22854f;-webkit-box-shadow: inset 0 0 5px 5px #22854f;box-shadow: inset 0 0 5px 5px #22854f;
+}
+#vitravleNav li:not(:last-child):active {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #185f38), color-stop(0.5, #175a35), color-stop(0.51, #1b6b3f), color-stop(1, #1f7b48));
+    background-image: -moz-linear-gradient(center bottom, #185f38 0%, #175a35 50%, #1b6b3f 51%, #1f7b48 100% );
+    background-color:#175a35;
+-moz-box-shadow: inset 0 1px 2px 2px #000;-webkit-box-shadow: inset 0 1px 2px 2px #000;box-shadow: inset 0 1px 2px 2px #000;}
+#vitravleNav li a { color:white; text-decoration:none; text-align:center; display:block; line-height:34px; outline:none; }
+#vitravleNav form input { width:76px; height:20px; margin-left:9px; margin-top:8px; border:none; padding-left:20px; padding-right:10px; color:#eee;
+-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;   
+    background-image: url("../images/magnifier.png"), -webkit-gradient(linear, left bottom, left top, color-stop(0, #2db56a), color-stop(0.5, #2caf67), color-stop(0.51, #32c876), color-stop(1, #36cd7a));
+    background-image: url("../images/magnifier.png"), -moz-linear-gradient(center bottom, #2db56a 0%, #2caf67 50%, #32c876 51%, #36cd7a 100%);background-repeat: no-repeat;background-color:#6E6E6E;
+-moz-box-shadow: inset 0 2px 1px 1px #165733;-webkit-box-shadow: inset 0 2px 1px 1px #165733;box-shadow: inset 0 2px 1px 1px #165733;}
+#vitravleNav li:first-child {-moz-border-radius:4px 0 0 4px;-webkit-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;
+border-left:none;}
+#vitravleNav li:first-child a img {vertical-align:middle; margin-top:-2px;}
+#vitravleNav li:last-child {
+-moz-border-radius:0 4px 4px 0;-webkit-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;border-right:none;width:124px;}
+@-webkit-keyframes showMenu {from { opacity: 0; top:-20px; } to   { opacity: 1; }}
+#vitravleNav {-webkit-animation: showMenu 1s; position:relative;}
